@@ -8,9 +8,25 @@
 }
 
 .home, .java, .javascript, .python, .golang {
-  display: flex;
+  display: block;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+canvas { 
+  border: 1px solid black; 
+  background-color: greenyellow;
+  height:500px;
+  width:500px;
+}
+
+image {
+  height: 48px;
+  width: 48px;
+}
+
+circle {
+  fill: yellow;
 }
