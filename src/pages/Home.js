@@ -13,7 +13,7 @@ function Home() {
 
         <br></br>
         
-        <input size="100" type="text" placeholder="Search..."></input>
+        <input size="100" type="text" placeholder="What's your desire?..."></input>
     
     </div>
   )
