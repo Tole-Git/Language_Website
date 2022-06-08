@@ -1,16 +1,5 @@
 import React from 'react'
 
-<<<<<<< HEAD
-function Python() {
-    return (
-        <div className = 'python'>
-            <h1>Python</h1>
-        </div>
-    )
-}
-
-export default Python;
-=======
 function Ruby() {
   return (
     <div className = 'ruby'>
@@ -34,4 +23,4 @@ Ruby is dynamically typed and uses garbage collection and just-in-time compilati
 }
 
 export default Ruby;
->>>>>>> dcf063e91fae4e9c2605fbb7ff2410a2dd560318
+
