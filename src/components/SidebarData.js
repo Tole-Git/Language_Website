@@ -53,5 +53,41 @@ export const SidebarData = [
         icon: <DiIcons.DiRuby />,
         cName: 'nav-text'
     },
+    {
+        title: 'C',
+        path: '/c',
+        icon: <DiIcons.DiRuby />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'C++',
+        path: '/cpp',
+        icon: <DiIcons.DiRuby />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'C#',
+        path: '/csharp',
+        icon: <DiIcons.DiRuby />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'HTML',
+        path: '/html',
+        icon: <DiIcons.DiRuby />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Scala',
+        path: '/scala',
+        icon: <DiIcons.DiRuby />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'PHP',
+        path: '/php',
+        icon: <DiIcons.DiRuby />,
+        cName: 'nav-text'
+    },
     
 ];

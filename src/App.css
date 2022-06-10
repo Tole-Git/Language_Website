@@ -7,7 +7,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.home, .java, .javascript, .python, .golang, .closure, .erlang, .ruby {
+.home, .java, .javascript, .python, .golang, .closure, .erlang, .ruby, .c, .cpp, .csharp, .html, .scala, .php {
   display: block;
   height: 90vh;
   align-items: center;
@@ -32,3 +32,26 @@ image {
 circle {
   fill: yellow;
 }
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: left;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+
+.search {
+  width: 30%;
+}
+
+ul li {
+  font-size: 20px;
+} 

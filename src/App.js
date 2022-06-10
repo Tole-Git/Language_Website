@@ -10,13 +10,13 @@ import Golang from './pages/Golang';
 import Closure from './pages/Closure';
 import Erlang from './pages/Erlang';
 import Ruby from './pages/Ruby';
-import C++ from './pages/C++';
 import C from './pages/C';
-import C# from './pages/C#';
+import CPP from './pages/CPP';
+import CSharp from './pages/CSharp';
 import HTML from './pages/HTML';
 import PHP from './pages/PHP';
 import Scala from './pages/Scala';
-          
+
 
 function App() {
   return (
@@ -33,16 +33,17 @@ function App() {
           <Route path = '/Erlang' element={<Erlang/>}/>
           <Route path = '/Ruby' element={<Ruby/>}/>
           <Route path = '/C' element={<C/>}/>
-          <Route path = '/C++' element={<C++/>}/>
-          <Route path = '/C#' element={<C#/>}/>
+          <Route path = '/CPP' element={<CPP/>}/>
+          <Route path = '/CSharp' element={<CSharp/>}/>
           <Route path = '/HTML' element={<HTML/>}/>
           <Route path = '/PHP' element={<PHP/>}/>
           <Route path = '/Scala' element={<Scala/>}/>
           
-          
         </Routes>
       </Router>
     </React.Fragment>
+
+    
   );
 }
 

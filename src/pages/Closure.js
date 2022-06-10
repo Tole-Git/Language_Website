@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Closure() {
+function Clojure() {
   return (
-    <div className = 'closure'>
-        <h1>Closure</h1>
+    <div className = 'clojure'>
+        <h1>Clojure</h1>
         <br></br>
         <h3>Origin</h3>
         <p>Initally designed in 2005</p>
@@ -37,4 +37,4 @@ Runs within JVM, implement Garbage Collection, so there is no need for deallocat
   )
 }
 
-export default Closure;
+export default Clojure;
