@@ -1,6 +1,18 @@
-import React from 'react'
+//import React from 'react';
+import { React, useState } from "react";
+import TextField from "@mui/material/TextField";
+import List from "./../components/List"
+import "./../App.css";
 
 function Home() {
+  const [inputText, setInputText] = useState("");
+  let inputHandler = (e) => {
+    // convert input text to lower case
+    var lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+
+  };
+
   return (
     <div className = 'home'>
         <h1>Home</h1>
@@ -13,8 +25,25 @@ function Home() {
 
         <br></br>
         
-        <input size="100" type="text" placeholder="What's your desire?..."></input>
-    
+        
+        {/* <input size="100" type="text" placeholder="What's your desire?..."></input> */}
+
+        {/* <p className='query_result'></p> */}
+
+        <div className="main">
+          <div className="search">
+          <TextField
+            id="outlined-basic"
+            onChange={inputHandler}
+            variant="outlined"
+            fullWidth
+            label="Ask me anything"
+          />
+        </div>
+        <List input={inputText} />
+        </div>
+
+
     </div>
   )
 }
