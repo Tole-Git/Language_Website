@@ -1,32 +1,53 @@
 import { React, useState } from 'react'
-import data from "./ListData.json"
+import "./SearchBar.css";
 
-function List(props) {
-
-    var filteredList = []
-
-    // create a new array by filtering the original array
-    filteredList = data.map((element) => {
-        return element.filter((el) => {
-            // if no input then return the original
-            if (props.input === '') {
-                return el;
-            }
-            // return the item which contains the user input
-            else {
-                return el.text.toLowerCase().includes(props.input)
-            }
-        })
-    })
-    
+function List({placeholder, data}) {
+    const [filteredData, setFilteredData] = useState([]);
+    const [userInputArray, setUserInputArray] = useState("");
+  
+    const inputHandler = (event) => {
+      const searchWord = event.target.value;
+      setUserInputArray(searchWord);
+      const newFilter = data.filter((value) => {
+        return value.title.toLowerCase().includes(searchWord.toLowerCase());
+      });
+  
+      if (searchWord === "") {
+        setFilteredData([]);
+      } else {
+        setFilteredData(newFilter);
+      }
+    };
+  
+    const clearInput = () => {
+      setFilteredData([]);
+      setUserInputArray("");
+    };
+  
     return (
-        
-        <ul>
-            {filteredList[1].map((item) => (
-                <li key={item.id}>{item.text}</li>
-            ))}
-        </ul>
-    )
+      <div className="search">
+        <div className="searchInputs">
+          <input
+            type="text"
+            placeholder={placeholder}
+            value={userInputArray}
+            onChange={inputHandler}
+          />
+        </div>
+        {filteredData.length != 0 && (
+          <div className="dataResult">
+            {filteredData.slice(0, 15).map((value, key) => {
+              return (
+                <a className="dataItem" href={value.link} target="_blank">
+                  <p>{value.title} </p>
+                </a>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    );
+  
 }
 
 export default List;

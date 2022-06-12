@@ -16,3 +16,13 @@
 [2022-06-12 02:46:04.496] [main] [info] update#setState idle
 [2022-06-12 03:46:04.496] [main] [info] update#setState checking for updates
 [2022-06-12 03:46:04.523] [main] [info] update#setState idle
+[2022-06-12 04:46:04.504] [main] [info] update#setState checking for updates
+[2022-06-12 04:46:04.511] [main] [info] update#setState idle
+[2022-06-12 04:46:14.536] [main] [info] Extension host with pid 9501 exited with code: 0, signal: null.
+[2022-06-12 04:46:16.966] [main] [info] Starting extension host with pid 28137 (fork() took 49 ms).
+[2022-06-12 04:51:15.873] [main] [info] Starting extension host with pid 28303 (fork() took 16 ms).
+[2022-06-12 04:51:17.828] [main] [info] Extension host with pid 28137 exited with code: 0, signal: null.
+[2022-06-12 05:39:03.714] [main] [info] Enabling inspect port on extension host with pid 28303.
+[2022-06-12 05:39:03.750] [main] [info] Enabling inspect port on extension host with pid 28303.
+[2022-06-12 05:46:04.509] [main] [info] update#setState checking for updates
+[2022-06-12 05:46:04.521] [main] [info] update#setState idle

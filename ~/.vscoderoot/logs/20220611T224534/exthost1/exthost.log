@@ -756,3 +756,46 @@
 [2022-06-12 04:13:37.261] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 486
 [2022-06-12 04:13:42.348] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 486
 [2022-06-12 04:13:47.443] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 486
+[2022-06-12 04:18:31.215] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 486
+[2022-06-12 04:46:14.165] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-12 04:46:14.262] [exthost] [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-06-12 04:46:14.279] [exthost] [info] Extension host with pid 9501 exiting with code 0
+[2022-06-12 04:46:18.759] [exthost] [info] Extension host with pid 28137 started
+[2022-06-12 04:46:18.760] [exthost] [info] Skipping acquiring lock for /home/virtuoso/Programming/UWT/DB/Language_Website/~/.vscoderoot/User/workspaceStorage/03135f9d02fd0fdad3f5854f5ed730dd.
+[2022-06-12 04:46:19.206] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-12 04:46:19.276] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-12 04:46:19.283] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-12 04:46:19.289] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-12 04:46:19.298] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-12 04:46:19.814] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-12 04:46:19.926] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-12 04:46:20.726] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-12 04:46:20.830] [exthost] [info] Eager extensions activated
+[2022-06-12 04:46:20.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-12 04:46:20.924] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-12 04:46:25.385] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-12 04:46:25.466] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-12 04:51:14.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:14.945] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:14.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:15.565] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-12 04:51:15.607] [exthost] [info] Extension host with pid 28137 exiting with code 0
+[2022-06-12 04:51:16.554] [exthost] [info] Extension host with pid 28303 started
+[2022-06-12 04:51:16.554] [exthost] [info] Skipping acquiring lock for /home/virtuoso/Programming/UWT/DB/Language_Website/~/.vscoderoot/User/workspaceStorage/8d27ba22e7001e0c71c1edc70536fdca.
+[2022-06-12 04:51:16.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-12 04:51:16.659] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-12 04:51:16.689] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-12 04:51:16.721] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-12 04:51:16.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+[2022-06-12 04:51:16.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:16.803] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:16.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:16.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-12 04:51:16.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-12 04:51:16.863] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-12 04:51:20.459] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+[2022-06-12 04:51:20.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-12 04:51:22.250] [exthost] [info] Eager extensions activated
+[2022-06-12 04:51:22.516] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-12 04:51:22.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

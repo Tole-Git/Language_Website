@@ -38,8 +38,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -48,13 +47,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/virtuoso/Programming/UWT/DB/Language_Website",
                                         "external": "file:///home/virtuoso/Programming/UWT/DB/Language_Website",
                                         "path": "/home/virtuoso/Programming/UWT/DB/Language_Website",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "/home/virtuoso/Programming/UWT/DB/Language_Website"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/virtuoso/Programming/UWT/DB/react-search-bar-app",
+                                        "path": "/home/virtuoso/Programming/UWT/DB/react-search-bar-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/virtuoso/Programming/UWT/DB/react-search-bar-app"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -101,8 +110,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -188,7 +196,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1539,8 +1547,11 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/virtuoso/Programming/UWT/DB/Language_Website",
-            "backupPath": "/home/virtuoso/Programming/UWT/DB/Language_Website/~/.vscoderoot/Backups/7d96bad071f8ddff219c41721d2593b5",
+            "workspaceIdentifier": {
+                "id": "8d27ba22e7001e0c71c1edc70536fdca",
+                "configURIPath": "file:///home/virtuoso/Programming/UWT/DB/Language_Website/~/.vscoderoot/Workspaces/1655002274779/workspace.json"
+            },
+            "backupPath": "/home/virtuoso/Programming/UWT/DB/Language_Website/~/.vscoderoot/Backups/8d27ba22e7001e0c71c1edc70536fdca",
             "uiState": {
                 "mode": 1,
                 "x": 907,

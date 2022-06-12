@@ -1,0 +1,55 @@
+file:///home/virtuoso/Programming/UWT/DB/Language_Website/src/pages/Home.js {"mtime":1655004953098,"ctime":1654928377398,"size":1330,"etag":"38ra1qp5l1bs","orphaned":false,"typeId":""}
+//import React from 'react';
+import { React, useState } from "react";
+import TextField from "@mui/material/TextField";
+import List from "./../components/List"
+import "./../App.css";
+import SearchBar from "../components/SearchBar";
+
+function Home() {
+  const [inputText, setInputText] = useState("");
+  let inputHandler = (e) => {
+    // convert input text to lower case
+    var lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+
+  };
+
+  return (
+    <div className = 'home'>
+        <h1>Home</h1>
+
+        <br></br>
+
+        <image src="./public/logo512.png" alt="Genius-Squad" ></image>
+
+        <h6>The Comprehensive Programming Language Database that will revolutize the way you code forever</h6>
+
+        <br></br>
+        
+        <div className="main">
+          <SearchBar placeholder="Ask me anything" data={./}
+          {/* <div className="search">
+            <TextField
+              id="outlined-basic"
+              onChange={inputHandler}
+              variant="outlined"
+              fullWidth
+              label="Ask me anything"
+            />
+
+          </div>
+
+          <div className="search_container">
+            <div className="search_list"><List input={inputText} /></div>
+            <div className="search_list"><List input={inputText} /></div>
+            <div className="search_list"><List input={inputText} /></div>
+          </div> */}
+        </div>
+
+
+    </div>
+  )
+}
+
+export default Home;

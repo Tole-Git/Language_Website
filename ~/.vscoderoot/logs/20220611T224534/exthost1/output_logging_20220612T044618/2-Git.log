@@ -1,0 +1,24 @@
+[2022-06-12T02:46:20.071Z] Log level: Info
+[2022-06-12T02:46:20.073Z] [info] Validating found git in: git
+[2022-06-12T02:46:20.146Z] [info] Using git 2.36.1 from git
+[2022-06-12T02:46:20.197Z] > git rev-parse --show-toplevel [16ms]
+[2022-06-12T02:46:20.227Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2022-06-12T02:46:20.253Z] [info] Open repository: /home/virtuoso/Programming/UWT/DB/react-search-bar-app
+[2022-06-12T02:46:20.287Z] > git status -z -uall [15ms]
+[2022-06-12T02:46:20.304Z] > git symbolic-ref --short HEAD [5ms]
+[2022-06-12T02:46:20.322Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+[2022-06-12T02:46:20.359Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+[2022-06-12T02:46:20.361Z] > git remote --verbose [11ms]
+[2022-06-12T02:46:20.714Z] > git config --get commit.template [169ms]
+[2022-06-12T02:46:21.165Z] > git check-ignore -v -z --stdin [34ms]
+[2022-06-12T02:46:23.772Z] > git check-ignore -v -z --stdin [5ms]
+[2022-06-12T02:46:26.279Z] > git show --textconv :src/App.js [239ms]
+[2022-06-12T02:46:26.279Z] > git ls-files --stage -- /home/virtuoso/Programming/UWT/DB/react-search-bar-app/src/App.js [209ms]
+[2022-06-12T02:46:26.525Z] > git cat-file -s b0f6ae271ed0c386985a81b2e12cd0a3dea90b74 [231ms]
+[2022-06-12T02:47:26.768Z] > git check-ignore -v -z --stdin [2ms]
+[2022-06-12T02:47:31.163Z] > git show --textconv :src/Components/SearchBar.js [73ms]
+[2022-06-12T02:47:31.189Z] > git ls-files --stage -- /home/virtuoso/Programming/UWT/DB/react-search-bar-app/src/Components/SearchBar.js [30ms]
+[2022-06-12T02:47:31.235Z] > git cat-file -s b5e9a9d85bfd0720c0c6deb3cf3ac42c99ee056b [6ms]
+[2022-06-12T02:51:15.433Z] > git rev-parse --show-toplevel [34ms]
+[2022-06-12T02:51:15.520Z] > git rev-parse --git-dir --git-common-dir [47ms]
+[2022-06-12T02:51:15.525Z] [info] Open repository: /home/virtuoso/Programming/UWT/DB/Language_Website

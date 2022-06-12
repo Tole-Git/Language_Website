@@ -29,10 +29,6 @@ image {
   width: 48px;
 }
 
-circle {
-  fill: yellow;
-}
-
 .index {
   display: flex;
   height: 100vh;
