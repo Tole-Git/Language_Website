@@ -3,7 +3,7 @@ import React from 'react'
 function CSharp() {
   return (
     <div className = 'csharp'>
-        <h1>C#</h1>
+        <h3>C#</h3>
     </div>
   )
 }

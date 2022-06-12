@@ -3,7 +3,7 @@ import React from 'react'
 function Clojure() {
   return (
     <div className = 'clojure'>
-        <h1>Clojure</h1>
+        <h3>Clojure</h3>
         <br></br>
         <h3>Origin</h3>
         <p>Initally designed in 2005</p>

@@ -7,7 +7,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.home, .java, .javascipt, .python, .golang, .closure, .erlang, .ruby, .c, .cpp, .csharp, .html, .scala, .php {
+.home, .java, .javascript, .python, .golang, .clojure, .erlang, .ruby, .c, .cpp, .csharp, .html, .scala, .php {
   display: block;
   height: 90vh;
   align-items: center;

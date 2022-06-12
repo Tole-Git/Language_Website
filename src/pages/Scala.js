@@ -3,7 +3,7 @@ import React from 'react'
 function Scala() {
   return (
     <div className = 'scala'>
-        <h1>Scala</h1>
+        <h3>Scala</h3>
     </div>
   )
 }

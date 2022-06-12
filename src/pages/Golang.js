@@ -3,7 +3,7 @@ import React from 'react'
 function Golang() {
   return (
     <div className = 'golang'>
-        <h1>Golang</h1>
+        <h3>Golang</h3>
         <br></br>
         <h3>Origin</h3>
         <p>Go was developed in 2007 and released in 2009 initially as an open-source programming language based on C++, Python, & Java.</p>

@@ -3,7 +3,7 @@ import React from 'react'
 function Java() {
   return (
     <div className = 'java' onload='draw();'>
-        <h1>Java</h1>
+        <h3>Java</h3>
         
         <h3>Something about Java ...</h3>
 

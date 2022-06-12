@@ -3,7 +3,7 @@ import React from 'react'
 function HTML() {
   return (
     <div className = 'html'>
-        <h1>HTML</h1>
+        <h3>HTML</h3>
     </div>
   )
 }
