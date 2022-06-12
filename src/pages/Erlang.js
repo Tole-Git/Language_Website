@@ -3,7 +3,7 @@ import React from 'react'
 function Erlang() {
   return (
     <div className = 'erlang'>
-        <h1>Erlang</h1>
+        <h3>Erlang</h3>
         <br></br>
         <h3>Origin</h3>
         <p>First version in 1986, created as a prioprietary language within Ericsson.

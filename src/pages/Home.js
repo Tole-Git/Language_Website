@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <div className = 'home'>
-        <h1>Home</h1>
+        <h3>Home</h3>
 
         <br></br>
 

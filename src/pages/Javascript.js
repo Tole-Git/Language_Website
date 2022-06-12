@@ -5,7 +5,7 @@ function Javascript() {
     
     <div className = 'javascript'>
 
-        <h1>Javascript</h1>
+        <h3>Javascript</h3>
         <br></br>
         <h3>Origin</h3>
         <p>Initially created for DOM manipulation and the implementation of dynamic web sites.</p>

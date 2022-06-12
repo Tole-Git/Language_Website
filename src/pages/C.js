@@ -3,7 +3,7 @@ import React from 'react'
 function C() {
   return (
     <div className = 'c'>
-        <h1>C</h1>
+        <h3>C</h3>
     </div>
   )
 }

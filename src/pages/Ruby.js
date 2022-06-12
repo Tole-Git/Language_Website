@@ -3,7 +3,7 @@ import React from 'react'
 function Ruby() {
   return (
     <div className = 'ruby'>
-        <h1>Ruby</h1>
+        <h3>Ruby</h3>
         <br></br>
         <h3>Origin</h3>
         <p>First appeared in 1995, 27 years ago</p>
