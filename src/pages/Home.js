@@ -3,6 +3,7 @@ import { React, useState } from "react";
 import TextField from "@mui/material/TextField";
 import List from "./../components/List";
 import SampleData from "./../components/SampleData.json";
+import RawSQLData from "./../components/RawSQLData.json"
 import "./../App.css";
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
         <br></br>
         
         <div className="main">  
-          <List placeholder="What's your desire?..." data={SampleData}></List>
+          <List placeholder="What's your desire?..." data={RawSQLData}></List>
         </div>  
     </div>
   )

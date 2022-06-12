@@ -9,7 +9,7 @@ function List({placeholder, data}) {
       const searchWord = event.target.value;
       setUserInputArray(searchWord);
       const newFilter = data.filter((value) => {
-        return value.title.toLowerCase().includes(searchWord.toLowerCase());
+        return value.Name.toLowerCase().includes(searchWord.toLowerCase());
       });
   
       if (searchWord === "") {
@@ -38,8 +38,8 @@ function List({placeholder, data}) {
           <div className="dataResult">
             {filteredData.slice(0, 15).map((value, key) => {
               return (
-                <a className="dataItem" href={value.link} target="_blank">
-                  <p>{value.title} </p>
+                <a className="dataItem" target="_blank">
+                  <p>{[value.Name, " (", value.Reference, ".", value.ID, ")"]} </p>
                 </a>
               );
             })}

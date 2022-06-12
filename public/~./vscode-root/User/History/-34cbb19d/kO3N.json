@@ -1,0 +1,274 @@
+[
+  {
+    "Name": "Built-in Data Types",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 1,
+    "Reference": 500
+  },
+  {
+    "Name": "Varibles",
+    "Definition": "",
+    "Syntax": "(def var-name var-value)",
+    "Example": "(see below)",
+    "ID": 2,
+    "Reference": 500
+  },
+  {
+    "Name": "Primitive",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 3,
+    "Reference": 500
+  },
+  {
+    "Name": "Integers",
+    "Definition": "Whole numbers",
+    "Syntax": "type variableName = value",
+    "Example": "int x = 5",
+    "ID": 4,
+    "Reference": 500
+  },
+  {
+    "Name": "Floating point",
+    "Definition": "Decimal numbers",
+    "Syntax": "",
+    "Example": "float y = 3.142f",
+    "ID": 5,
+    "Reference": 500
+  },
+  {
+    "Name": "Char",
+    "Definition": "Just a single character, based of ASCII code",
+    "Syntax": "",
+    "Example": "char  c = 'J'",
+    "ID": 6,
+    "Reference": 500
+  },
+  {
+    "Name": "Boolean",
+    "Definition": "True / False",
+    "Syntax": "",
+    "Example": "boolean mybool = true",
+    "ID": 7,
+    "Reference": 500
+  },
+  {
+    "Name": "String",
+    "Definition": "Some sort of text",
+    "Syntax": "",
+    "Example": "String name = John Doe",
+    "ID": 8,
+    "Reference": 500
+  },
+  {
+    "Name": "Null",
+    "Definition": "In Java null is a reserved word (keyword) for literal values",
+    "Syntax": "type variableName = (typecast)null",
+    "Example": "Object myObject = null ",
+    "ID": 9,
+    "Reference": 500
+  },
+  {
+    "Name": "Atom",
+    "Definition": "A reference type that manages state",
+    "Syntax": "AtomicClass  variableName;",
+    "Example": "AtomicInteger myInt;",
+    "ID": 10,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 11,
+    "Reference": 500
+  },
+  {
+    "Name": "Structured",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 12,
+    "Reference": 500
+  },
+  {
+    "Name": "Lists",
+    "Definition": "A collection of data items",
+    "Syntax": "List<Obj> list = new ArrayList<Obj> () ",
+    "Example": "List<Integer>  list = new ArrayList<Integer>()",
+    "ID": 13,
+    "Reference": 500
+  },
+  {
+    "Name": "Sets",
+    "Definition": "A collection of unique items",
+    "Syntax": "Set<Obj> set = new HashSet<Obj> ()",
+    "Example": "Set<String> hash_set = new HashSet<String>()",
+    "ID": 14,
+    "Reference": 500
+  },
+  {
+    "Name": "Vectors",
+    "Definition": "A  collection of values indexed by integers",
+    "Syntax": "Vector vector_name = new Vector()",
+    "Example": "Vector v = new Vector()",
+    "ID": 15,
+    "Reference": 500
+  },
+  {
+    "Name": "Maps",
+    "Definition": "A collection of keys and values",
+    "Syntax": "",
+    "Example": "",
+    "ID": 16,
+    "Reference": 500
+  },
+  {
+    "Name": "hashed map",
+    "Definition": "Maps that support hashCode",
+    "Syntax": "Map<Obj1, Obj2> set = new HashMap<Obj1, Obj2> ()",
+    "Example": "Map<Integer, String> hmap = new HashMap<>()",
+    "ID": 17,
+    "Reference": 500
+  },
+  {
+    "Name": "sorted map",
+    "Definition": "Maps that implement Comparable",
+    "Syntax": "SortedMap<Obj1, Obj2> set = new TreeMap<Obj1, Obj2> ()",
+    "Example": "SortedMap<Integer, String> tm2= new TreeMap<Integer, String>()",
+    "ID": 18,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 19,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 20,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 21,
+    "Reference": 500
+  },
+  {
+    "Name": "Functions",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 22,
+    "Reference": 500
+  },
+  {
+    "Name": "Regular",
+    "Definition": "Basic functions",
+    "Syntax": "static returntype methodname() {}",
+    "Example": "static void myMethod() {}",
+    "ID": 23,
+    "Reference": 500
+  },
+  {
+    "Name": "Anonymous",
+    "Definition": "Yes, if you are using Java 8 or above. Java 8 make it possible to define anonymous functions",
+    "Syntax": " (parameter1, parameter2) -> { code block }",
+    "Example": "  interface myMethod { String run(String str); }",
+    "ID": 24,
+    "Reference": 500
+  },
+  {
+    "Name": "Multiple Arguments",
+    "Definition": "Java supports functions defined with zero or more parameters",
+    "Syntax": "methodName(value1, value2, ..., value3)",
+    "Example": "Add(10, 5,  20)",
+    "ID": 25,
+    "Reference": 500
+  },
+  {
+    "Name": "Variadic",
+    "Definition": "In Java, an argument of a method can accept arbitrary number of values.",
+    "Syntax": "  ",
+    "Example": " ",
+    "ID": 26,
+    "Reference": 500
+  },
+  {
+    "Name": "Higher Order",
+    "Definition": "HOFs are functions that take in other functions as arguments",
+    "Syntax": "",
+    "Example": "",
+    "ID": 27,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 28,
+    "Reference": 500
+  },
+  {
+    "Name": "Parameter",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 29,
+    "Reference": 500
+  },
+  {
+    "Name": "Single",
+    "Definition": "A function that has a single parameter",
+    "Syntax": " static returntype methodname(parameter1) {}",
+    "Example": "static void myMethod(String Fname) {}",
+    "ID": 30,
+    "Reference": 500
+  },
+  {
+    "Name": "Multiple",
+    "Definition": "A function that has two or more parameters",
+    "Syntax": " static returntype methodname(parameter1, parameter2) {}",
+    "Example": " static void myMethod(String Fname, String Lname, int age){}",
+    "ID": 31,
+    "Reference": 500
+  },
+  {
+    "Name": "Abitrary",
+    "Definition": "A function could have an arbitrary number of parameters",
+    "Syntax": " static returntype methodname(param datatype)  { // code to be execute ",
+    "Example": "static void myMethod(params string[] names) { }",
+    "ID": 32,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 33,
+    "Reference": 500
+  },
+  {
+    "Name": "Return Mechanism",
+    "Definition": "If you want the function to return a value, you can use a data type",
+    "Syntax": " static returntype methodname(parameter1) {}",
+    "Example": "static int myMethod(int a, int b) {return a + b}",
+    "ID": 34,
+    "Reference": 500
+  }
+]

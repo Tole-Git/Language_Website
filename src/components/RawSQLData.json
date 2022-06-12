@@ -1,0 +1,1413 @@
+[
+  {
+    "Name": "Built-in Data Types",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 1,
+    "Reference": 500
+  },
+  {
+    "Name": "Varibles",
+    "Definition": "",
+    "Syntax": "(def var-name var-value)",
+    "Example": "(see below)",
+    "ID": 2,
+    "Reference": 500
+  },
+  {
+    "Name": "Primitive",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 3,
+    "Reference": 500
+  },
+  {
+    "Name": "Integers",
+    "Definition": "Whole numbers",
+    "Syntax": "type variableName = value",
+    "Example": "int x = 5",
+    "ID": 4,
+    "Reference": 500
+  },
+  {
+    "Name": "Floating point",
+    "Definition": "Decimal numbers",
+    "Syntax": "",
+    "Example": "float y = 3.142f",
+    "ID": 5,
+    "Reference": 500
+  },
+  {
+    "Name": "Char",
+    "Definition": "Just a single character, based of ASCII code",
+    "Syntax": "",
+    "Example": "char  c = 'J'",
+    "ID": 6,
+    "Reference": 500
+  },
+  {
+    "Name": "Boolean",
+    "Definition": "True / False",
+    "Syntax": "",
+    "Example": "boolean mybool = true",
+    "ID": 7,
+    "Reference": 500
+  },
+  {
+    "Name": "String",
+    "Definition": "Some sort of text",
+    "Syntax": "",
+    "Example": "String name = John Doe",
+    "ID": 8,
+    "Reference": 500
+  },
+  {
+    "Name": "Null",
+    "Definition": "In Java null is a reserved word (keyword) for literal values",
+    "Syntax": "type variableName = (typecast)null",
+    "Example": "Object myObject = null ",
+    "ID": 9,
+    "Reference": 500
+  },
+  {
+    "Name": "Atom",
+    "Definition": "A reference type that manages state",
+    "Syntax": "AtomicClass  variableName;",
+    "Example": "AtomicInteger myInt;",
+    "ID": 10,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 11,
+    "Reference": 500
+  },
+  {
+    "Name": "Structured",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 12,
+    "Reference": 500
+  },
+  {
+    "Name": "Lists",
+    "Definition": "A collection of data items",
+    "Syntax": "List<Obj> list = new ArrayList<Obj> () ",
+    "Example": "List<Integer>  list = new ArrayList<Integer>()",
+    "ID": 13,
+    "Reference": 500
+  },
+  {
+    "Name": "Sets",
+    "Definition": "A collection of unique items",
+    "Syntax": "Set<Obj> set = new HashSet<Obj> ()",
+    "Example": "Set<String> hash_set = new HashSet<String>()",
+    "ID": 14,
+    "Reference": 500
+  },
+  {
+    "Name": "Vectors",
+    "Definition": "A  collection of values indexed by integers",
+    "Syntax": "Vector vector_name = new Vector()",
+    "Example": "Vector v = new Vector()",
+    "ID": 15,
+    "Reference": 500
+  },
+  {
+    "Name": "Maps",
+    "Definition": "A collection of keys and values",
+    "Syntax": "",
+    "Example": "",
+    "ID": 16,
+    "Reference": 500
+  },
+  {
+    "Name": "hashed map",
+    "Definition": "Maps that support hashCode",
+    "Syntax": "Map<Obj1, Obj2> set = new HashMap<Obj1, Obj2> ()",
+    "Example": "Map<Integer, String> hmap = new HashMap<>()",
+    "ID": 17,
+    "Reference": 500
+  },
+  {
+    "Name": "sorted map",
+    "Definition": "Maps that implement Comparable",
+    "Syntax": "SortedMap<Obj1, Obj2> set = new TreeMap<Obj1, Obj2> ()",
+    "Example": "SortedMap<Integer, String> tm2= new TreeMap<Integer, String>()",
+    "ID": 18,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 19,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 20,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 21,
+    "Reference": 500
+  },
+  {
+    "Name": "Functions",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 22,
+    "Reference": 500
+  },
+  {
+    "Name": "Regular",
+    "Definition": "Basic functions",
+    "Syntax": "static returntype methodname() {}",
+    "Example": "static void myMethod() {}",
+    "ID": 23,
+    "Reference": 500
+  },
+  {
+    "Name": "Anonymous",
+    "Definition": "Yes, if you are using Java 8 or above. Java 8 make it possible to define anonymous functions",
+    "Syntax": " (parameter1, parameter2) -> { code block }",
+    "Example": "  interface myMethod { String run(String str); }",
+    "ID": 24,
+    "Reference": 500
+  },
+  {
+    "Name": "Multiple Arguments",
+    "Definition": "Java supports functions defined with zero or more parameters",
+    "Syntax": "methodName(value1, value2, ..., value3)",
+    "Example": "Add(10, 5,  20)",
+    "ID": 25,
+    "Reference": 500
+  },
+  {
+    "Name": "Variadic",
+    "Definition": "In Java, an argument of a method can accept arbitrary number of values.",
+    "Syntax": "  ",
+    "Example": " ",
+    "ID": 26,
+    "Reference": 500
+  },
+  {
+    "Name": "Higher Order",
+    "Definition": "HOFs are functions that take in other functions as arguments",
+    "Syntax": "",
+    "Example": "",
+    "ID": 27,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 28,
+    "Reference": 500
+  },
+  {
+    "Name": "Parameter",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 29,
+    "Reference": 500
+  },
+  {
+    "Name": "Single",
+    "Definition": "A function that has a single parameter",
+    "Syntax": " static returntype methodname(parameter1) {}",
+    "Example": "static void myMethod(String Fname) {}",
+    "ID": 30,
+    "Reference": 500
+  },
+  {
+    "Name": "Multiple",
+    "Definition": "A function that has two or more parameters",
+    "Syntax": " static returntype methodname(parameter1, parameter2) {}",
+    "Example": " static void myMethod(String Fname, String Lname, int age){}",
+    "ID": 31,
+    "Reference": 500
+  },
+  {
+    "Name": "Abitrary",
+    "Definition": "A function could have an arbitrary number of parameters",
+    "Syntax": " static returntype methodname(param datatype)  { // code to be execute ",
+    "Example": "static void myMethod(params string[] names) { }",
+    "ID": 32,
+    "Reference": 500
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 33,
+    "Reference": 500
+  },
+  {
+    "Name": "Return Mechanism",
+    "Definition": "If you want the function to return a value, you can use a data type",
+    "Syntax": " static returntype methodname(parameter1) {}",
+    "Example": "static int myMethod(int a, int b) {return a + b}",
+    "ID": 34,
+    "Reference": 500
+  },
+  {
+    "Name": "Data Types",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 1,
+    "Reference": 1100
+  },
+  {
+    "Name": "Variables",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 2,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 3,
+    "Reference": 1100
+  },
+  {
+    "Name": "Numbers",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "num = 5.98",
+    "ID": 4,
+    "Reference": 1100
+  },
+  {
+    "Name": "Integers",
+    "Definition": "An integer is simply a sequence of digits",
+    "Syntax": "",
+    "Example": "",
+    "ID": 5,
+    "Reference": 1100
+  },
+  {
+    "Name": "Fixnum",
+    "Definition": "32 or 64 bits",
+    "Syntax": "",
+    "Example": "num = 64",
+    "ID": 6,
+    "Reference": 1100
+  },
+  {
+    "Name": "Bignum",
+    "Definition": "used for bigger numbers",
+    "Syntax": "",
+    "Example": "numBig = 8888",
+    "ID": 7,
+    "Reference": 1100
+  },
+  {
+    "Name": "Floats",
+    "Definition": "Numbers with decimal points",
+    "Syntax": "",
+    "Example": "floatNum = 2.5",
+    "ID": 8,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 9,
+    "Reference": 1100
+  },
+  {
+    "Name": "Boolean",
+    "Definition": "Represent 2 states: true or false",
+    "Syntax": "",
+    "Example": "TRUE",
+    "ID": 10,
+    "Reference": 1100
+  },
+  {
+    "Name": "Strings",
+    "Definition": "A sequence of characters",
+    "Syntax": "",
+    "Example": "Hello, World!!",
+    "ID": 11,
+    "Reference": 1100
+  },
+  {
+    "Name": "Hashes",
+    "Definition": "An array of key/value pairs",
+    "Syntax": "",
+    "Example": "colors = { red => 0xf00, green => 0x0f0, blue => 0x00f }",
+    "ID": 12,
+    "Reference": 1100
+  },
+  {
+    "Name": "Arrays",
+    "Definition": "An array stores data or list of data",
+    "Syntax": "",
+    "Example": "random = [ fred, 10, 3.14, This is a string, last element, ]",
+    "ID": 13,
+    "Reference": 1100
+  },
+  {
+    "Name": "Symbols",
+    "Definition": "light-weight strings",
+    "Syntax": "",
+    "Example": "domains = {:sk => GeeksforGeeks, :no => GFG, :hu => Geeks}",
+    "ID": 14,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 15,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 16,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 17,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 18,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 19,
+    "Reference": 1100
+  },
+  {
+    "Name": "Structured",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 20,
+    "Reference": 1100
+  },
+  {
+    "Name": "Arrays",
+    "Definition": "Fixed-size sequential collection of elements of the same type",
+    "Syntax": "arrName = Array.new(arrSize)\narrName = Array[items]",
+    "Example": "myTools = Array.new(5) nums = Array[1,2,3,4,5]",
+    "ID": 21,
+    "Reference": 1100
+  },
+  {
+    "Name": "Hashes",
+    "Definition": "A Hash is a collection of key-value pairs",
+    "Syntax": "hashName = Array.new(hashName) hashName = Hash[items]",
+    "Example": "months = Hash.new(hashName)\nH = Hash[a => 100, b => 200]",
+    "ID": 22,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 23,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 24,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 25,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 26,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 27,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 28,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 29,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 30,
+    "Reference": 1100
+  },
+  {
+    "Name": "Methods",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 31,
+    "Reference": 1100
+  },
+  {
+    "Name": "Regular",
+    "Definition": "Ruby methods are used to bundle one or more repeatable statements into a single unit.",
+    "Syntax": "def method_name [( [arg [= default]]...[, * arg [, &expr ]])]\nexpr..\nend\n",
+    "Example": "def test(a1 = Ruby, a2 = Perl)\nputs The programming language is #{a1}\nputs The programming language is #{a2}\nend",
+    "ID": 32,
+    "Reference": 1100
+  },
+  {
+    "Name": "Anonymous",
+    "Definition": "Anonymous methods in source code are called function literals and at run time, method literals are instantiated into objects called method values.",
+    "Syntax": "See Ruby documentation for lambdas and inline methods",
+    "Example": "my_array.each{ |item| puts item }",
+    "ID": 33,
+    "Reference": 1100
+  },
+  {
+    "Name": "Multiple Arguments",
+    "Definition": "Methods could have multiple arguments",
+    "Syntax": "def method_name (var1, var2)\n   expr..\nend",
+    "Example": "def printNum(a1, a2)\nputs The first number is #{a1}\nputs The second number is #{a2}\nend",
+    "ID": 34,
+    "Reference": 1100
+  },
+  {
+    "Name": "Variadic",
+    "Definition": "Methods that take in an abitrary numbers of arguments",
+    "Syntax": "def method_name(*varList) expr.. end",
+    "Example": "def studentGen(*names) puts Student names: #{names} end",
+    "ID": 35,
+    "Reference": 1100
+  },
+  {
+    "Name": "Higher Order",
+    "Definition": "HOFs are methods that take in other methods as arguments",
+    "Syntax": "def method_name(inputMethod) expr.. return outputMethod end",
+    "Example": "def IO(innerMethod)\nputs Got that method in IO\nouterMethod = innerMethod\nreturn outerMethod\nend",
+    "ID": 36,
+    "Reference": 1100
+  },
+  {
+    "Name": "Loops",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 37,
+    "Reference": 1100
+  },
+  {
+    "Name": "If - else",
+    "Definition": "Recursion that make Boolean decision based of conditions",
+    "Syntax": "if conditional [then]\ncode...\n[elsif conditional [then]\ncode...]...\n[else\ncode...]\nend",
+    "Example": "x = 1\nif x > 2\nputs x is greater than 2\nelsif x <= 2 and x!=0\nputs x is 1\nelse\nputs 'I cant guess the number'\nend",
+    "ID": 38,
+    "Reference": 1100
+  },
+  {
+    "Name": "While",
+    "Definition": "Recursion that evaluates its condition to determinite its execution state",
+    "Syntax": "while conditional [do]\n   code\nend",
+    "Example": "\ni = 0\n$num = 5\n\nwhile $i < $num  do\nputs(Inside the loop i = #$i )\n$i +=1\nend",
+    "ID": 39,
+    "Reference": 1100
+  },
+  {
+    "Name": "Do While",
+    "Definition": "Like a while loop, except it would execute the statements first before evaluating the conditions",
+    "Syntax": "code while condition\n\nOR\n\nbegin \n  code \nend while conditional",
+    "Example": "$i = 0\n$num = 5\nbegin\nputs(Inside the loop i = #$i )\n$i +=1\nend while $i < $num",
+    "ID": 40,
+    "Reference": 1100
+  },
+  {
+    "Name": "For",
+    "Definition": "Iteration-based recursion",
+    "Syntax": "for variable [, variable ...] in expression [do]\n   code\nend\n",
+    "Example": "for i in 0..5\n   puts Value of local variable is #{i}\nend\n",
+    "ID": 41,
+    "Reference": 1100
+  },
+  {
+    "Name": "For..in",
+    "Definition": "Iteration-based recursion",
+    "Syntax": "(expression).each do |variable[, variable...]| code end\n",
+    "Example": "for i in 0..5\nif i > 2 then\nbreak\nend\nputs Value of local variable is #{i}\nend\n",
+    "ID": 42,
+    "Reference": 1100
+  },
+  {
+    "Name": "Case",
+    "Definition": "Case statement that can be used to execute expressions based of conditions",
+    "Syntax": "case x\nwhen condition1\ndo_something\nwhen condition 2\ndo_something\nelse\ndo_something\nend",
+    "Example": "case capacity\nwhen 0\nYou ran out of gas.\nwhen 1..20\nThe tank is almost empty. Quickly, find a gas station!\nwhen 21..70\nYou should be ok for now.\nwhen 71..100\nThe tank is almost full.\nelse\nError: capacity has an invalid value (#{capacity})\nend",
+    "ID": 43,
+    "Reference": 1100
+  },
+  {
+    "Name": "Until",
+    "Definition": "Executes code while conditional is false. An until statements conditional is separated from code by the reserved word do, a newline, or a semicolon.",
+    "Syntax": "until conditional [do]\n   code\nend\n",
+    "Example": "$i = 0\n$num = 5\n\nuntil $i > $num  do\nputs(Inside the loop i = #$i )\n$i +=1;\nend",
+    "ID": 44,
+    "Reference": 1100
+  },
+  {
+    "Name": "Until Modified",
+    "Definition": "Executes code while conditional is false.\n If an until modifier follows a begin statement with no rescue or ensure clauses, code is executed once before conditional is evaluated.",
+    "Syntax": "code until conditional\n\nOR\n\nbegin\n   code\nend until conditional",
+    "Example": "",
+    "ID": 45,
+    "Reference": 1100
+  },
+  {
+    "Name": "Break",
+    "Definition": "Terminates the most internal loop. Terminates a method with an associated block if called within the block (with the method returning nil).",
+    "Syntax": "break\n",
+    "Example": "",
+    "ID": 46,
+    "Reference": 1100
+  },
+  {
+    "Name": "Next",
+    "Definition": "Jumps to the next iteration of the most internal loop. Terminates execution of a block if called within a block (with yield or call returning nil).",
+    "Syntax": "next",
+    "Example": "",
+    "ID": 47,
+    "Reference": 1100
+  },
+  {
+    "Name": "Redo",
+    "Definition": "Restarts this iteration of the most internal loop, without checking loop condition. Restarts yeild or call if called within a block.",
+    "Syntax": "redo",
+    "Example": "",
+    "ID": 48,
+    "Reference": 1100
+  },
+  {
+    "Name": "Retry",
+    "Definition": "If retry appears in rescure clause of begin expression, restart fro the beginning of the beginn body.",
+    "Syntax": "",
+    "Example": "for i in 0..5\n   retry if i > 2\nputs Value of local variable is #{i}\nend",
+    "ID": 49,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 50,
+    "Reference": 1100
+  },
+  {
+    "Name": "Parameter",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 51,
+    "Reference": 1100
+  },
+  {
+    "Name": "Single",
+    "Definition": "When only 1 argument is passed",
+    "Syntax": "def method_name(arg)",
+    "Example": "def printLocation(address)",
+    "ID": 52,
+    "Reference": 1100
+  },
+  {
+    "Name": "Multiple",
+    "Definition": "When multiple argument are passed",
+    "Syntax": "def method_name(arg1, arg2, ...)",
+    "Example": "def whichIsBetter(dog, cat, mouse, zebra)",
+    "ID": 53,
+    "Reference": 1100
+  },
+  {
+    "Name": "Abitrary",
+    "Definition": "When an unknown number of arguments is passed",
+    "Syntax": "def method_name(*args)",
+    "Example": "def zoology(*animals)",
+    "ID": 54,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 55,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 56,
+    "Reference": 1100
+  },
+  {
+    "Name": "Return Mechanism",
+    "Definition": "Specified by the return keyword",
+    "Syntax": "return expr...",
+    "Example": "return 1,2,3",
+    "ID": 57,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 58,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 59,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 60,
+    "Reference": 1100
+  },
+  {
+    "Name": "Keywords",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 61,
+    "Reference": 1100
+  },
+  {
+    "Name": "abstract",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 62,
+    "Reference": 1100
+  },
+  {
+    "Name": "case",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 63,
+    "Reference": 1100
+  },
+  {
+    "Name": "catch",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 64,
+    "Reference": 1100
+  },
+  {
+    "Name": "class",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 65,
+    "Reference": 1100
+  },
+  {
+    "Name": "def",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 66,
+    "Reference": 1100
+  },
+  {
+    "Name": "do",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 67,
+    "Reference": 1100
+  },
+  {
+    "Name": "else",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 68,
+    "Reference": 1100
+  },
+  {
+    "Name": "extends",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 69,
+    "Reference": 1100
+  },
+  {
+    "Name": "FALSE",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 70,
+    "Reference": 1100
+  },
+  {
+    "Name": "final",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 71,
+    "Reference": 1100
+  },
+  {
+    "Name": "finally",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 72,
+    "Reference": 1100
+  },
+  {
+    "Name": "for",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 73,
+    "Reference": 1100
+  },
+  {
+    "Name": "forSome",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 74,
+    "Reference": 1100
+  },
+  {
+    "Name": "if",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 75,
+    "Reference": 1100
+  },
+  {
+    "Name": "implicit",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 76,
+    "Reference": 1100
+  },
+  {
+    "Name": "import",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 77,
+    "Reference": 1100
+  },
+  {
+    "Name": "lazy",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 78,
+    "Reference": 1100
+  },
+  {
+    "Name": "match",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 79,
+    "Reference": 1100
+  },
+  {
+    "Name": "new",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 80,
+    "Reference": 1100
+  },
+  {
+    "Name": "Null",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 81,
+    "Reference": 1100
+  },
+  {
+    "Name": "object",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 82,
+    "Reference": 1100
+  },
+  {
+    "Name": "override",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 83,
+    "Reference": 1100
+  },
+  {
+    "Name": "package",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 84,
+    "Reference": 1100
+  },
+  {
+    "Name": "private",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 85,
+    "Reference": 1100
+  },
+  {
+    "Name": "...",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 86,
+    "Reference": 1100
+  },
+  {
+    "Name": "MORE",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 102,
+    "Reference": 1100
+  },
+  {
+    "Name": "Operators / Identifiers",
+    "Definition": "Operator, Mixed, Literal Identifiers",
+    "Syntax": "",
+    "Example": "",
+    "ID": 103,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 104,
+    "Reference": 1100
+  },
+  {
+    "Name": "Comments",
+    "Definition": "single-line",
+    "Syntax": "#",
+    "Example": "",
+    "ID": 105,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "multi-line",
+    "Syntax": "=begin text =end",
+    "Example": "begin 'Hello, World' =end",
+    "ID": 106,
+    "Reference": 1100
+  },
+  {
+    "Name": "Newline characters",
+    "Definition": "print a new line",
+    "Syntax": "",
+    "Example": "",
+    "ID": 107,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 108,
+    "Reference": 1100
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 109,
+    "Reference": 1100
+  },
+  {
+    "Name": "Escape characters",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 110,
+    "Reference": 1100
+  },
+  {
+    "Name": "Characters",
+    "Definition": "Name",
+    "Syntax": "Execution Code",
+    "Example": "",
+    "ID": 111,
+    "Reference": 1100
+  },
+  {
+    "Name": "\t",
+    "Definition": "tab",
+    "Syntax": "0x09",
+    "Example": "",
+    "ID": 112,
+    "Reference": 1100
+  },
+  {
+    "Name": "\n",
+    "Definition": "newline",
+    "Syntax": "0x0a",
+    "Example": "",
+    "ID": 113,
+    "Reference": 1100
+  },
+  {
+    "Name": "\r",
+    "Definition": "carriage return",
+    "Syntax": "0x0d",
+    "Example": "",
+    "ID": 114,
+    "Reference": 1100
+  },
+  {
+    "Name": "f",
+    "Definition": "form feed",
+    "Syntax": "0x0c",
+    "Example": "",
+    "ID": 115,
+    "Reference": 1100
+  },
+  {
+    "Name": "Built-in Data Types",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 1,
+    "Reference": 200
+  },
+  {
+    "Name": "Varibles",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 2,
+    "Reference": 200
+  },
+  {
+    "Name": "Primitive",
+    "Definition": "",
+    "Syntax": " ",
+    "Example": "",
+    "ID": 3,
+    "Reference": 200
+  },
+  {
+    "Name": "Integers",
+    "Definition": "Whole numbers",
+    "Syntax": "type variableName = value",
+    "Example": "int x = 5",
+    "ID": 4,
+    "Reference": 200
+  },
+  {
+    "Name": "Floating point",
+    "Definition": "Decimal numbers",
+    "Syntax": "",
+    "Example": "float x = 3.14",
+    "ID": 5,
+    "Reference": 200
+  },
+  {
+    "Name": "Char",
+    "Definition": "Multiple or single character, based of ASCII code",
+    "Syntax": "",
+    "Example": "char c = 'M'",
+    "ID": 6,
+    "Reference": 200
+  },
+  {
+    "Name": "Boolean",
+    "Definition": "True / False",
+    "Syntax": "",
+    "Example": "bool A = true",
+    "ID": 7,
+    "Reference": 200
+  },
+  {
+    "Name": "String",
+    "Definition": "NULL",
+    "Syntax": "",
+    "Example": "NULL",
+    "ID": 8,
+    "Reference": 200
+  },
+  {
+    "Name": "Null",
+    "Definition": "N/A",
+    "Syntax": "",
+    "Example": "int x = NULL",
+    "ID": 9,
+    "Reference": 200
+  },
+  {
+    "Name": "Atom",
+    "Definition": "Their purpose is to ensure race-free access to variables that are shared between different threads",
+    "Syntax": "_Atomic ( type-name )",
+    "Example": "_Atomic int p1",
+    "ID": 10,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 11,
+    "Reference": 200
+  },
+  {
+    "Name": "Structured",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 12,
+    "Reference": 200
+  },
+  {
+    "Name": "Lists",
+    "Definition": "Standard C doesnt support lists",
+    "Syntax": "Null",
+    "Example": "Null",
+    "ID": 13,
+    "Reference": 200
+  },
+  {
+    "Name": "Sets",
+    "Definition": "Standard C doesnt support sets",
+    "Syntax": "Null",
+    "Example": "Null",
+    "ID": 14,
+    "Reference": 200
+  },
+  {
+    "Name": "Vectors",
+    "Definition": "Standard C doesnt support vectors",
+    "Syntax": "Null",
+    "Example": "Null",
+    "ID": 15,
+    "Reference": 200
+  },
+  {
+    "Name": "Maps",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 16,
+    "Reference": 200
+  },
+  {
+    "Name": "hashed map",
+    "Definition": "Standard C doesnt support hashed map",
+    "Syntax": "Null",
+    "Example": "Null",
+    "ID": 17,
+    "Reference": 200
+  },
+  {
+    "Name": "sorted map",
+    "Definition": "Standard C doesnt support hashed map",
+    "Syntax": "Null",
+    "Example": "Null",
+    "ID": 18,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 19,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 20,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 21,
+    "Reference": 200
+  },
+  {
+    "Name": "Functions",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 22,
+    "Reference": 200
+  },
+  {
+    "Name": "Regular",
+    "Definition": "A function is a group of statements that together perform a task",
+    "Syntax": "void myFunction() {}",
+    "Example": "void myName() {printf('My name is John Doe!');}",
+    "ID": 23,
+    "Reference": 200
+  },
+  {
+    "Name": "Anonymous",
+    "Definition": "Standard C does not support anonymous functions",
+    "Syntax": "N/A",
+    "Example": "N/A",
+    "ID": 24,
+    "Reference": 200
+  },
+  {
+    "Name": "Multiple Arguments",
+    "Definition": "The values that are declared within a function when the function is called are known as an argument.",
+    "Syntax": " myFunction(value1, value2, ... , value n) ",
+    "Example": " Add(10, 5, 2)",
+    "ID": 25,
+    "Reference": 200
+  },
+  {
+    "Name": "Variadic",
+    "Definition": "functions that can take a variable number of arguments",
+    "Syntax": "int funcName(data_type variable_name, ...)",
+    "Example": "int funcName(int n, ...) {}",
+    "ID": 26,
+    "Reference": 200
+  },
+  {
+    "Name": "Higher Order",
+    "Definition": "HOFs are functions that take in other functions as arguments. C++11 uses lamdas",
+    "Syntax": " void functionName(void(Function pointer)(void)) {// code to be executed}",
+    "Example": "void myFunc(void (*funcParameter)(void) ){}",
+    "ID": 27,
+    "Reference": 300
+  },
+  {
+    "Name": "If - else",
+    "Definition": "if statement that contains the use of logical conditions from mathematics",
+    "Syntax": "if (condition) {} else {}",
+    "Example": "if (x > y) {}",
+    "ID": 28,
+    "Reference": 200
+  },
+  {
+    "Name": "Switch Statement",
+    "Definition": "Case statement that contains the use of multiple logical conditions",
+    "Syntax": "switch(expression) {}",
+    "Example": "  switch (day) {\ncase 1:\nprintf('Monday');\nbreak;\ncase 2:\nprintf('Tuesday');\nbreak;\n}",
+    "ID": 29,
+    "Reference": 200
+  },
+  {
+    "Name": "Loops",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 30,
+    "Reference": 200
+  },
+  {
+    "Name": "While",
+    "Definition": "Execute instructions as long as condition is true.",
+    "Syntax": "while (condition) {}",
+    "Example": "int i; while (i < 5) { printf('%d\n', i);  i++; }",
+    "ID": 31,
+    "Reference": 200
+  },
+  {
+    "Name": "Do While",
+    "Definition": "Execute instructions first, then repeats as long as condition is true.",
+    "Syntax": "do {  //code to be executed  } while(condition);  ",
+    "Example": " int i=1;  do{ printf('%d \n',i);  i++; } while(i<=10);  return 0;  } ",
+    "ID": 32,
+    "Reference": 200
+  },
+  {
+    "Name": "For",
+    "Definition": "Loops instructions with a set value.",
+    "Syntax": "for (statement 1 statement 2 statement 3) {}",
+    "Example": "int i; for (i = 0; i < 5; i++) { printf('%d\n', i); }",
+    "ID": 33,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 34,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 35,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 36,
+    "Reference": 200
+  },
+  {
+    "Name": "Parameter",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 37,
+    "Reference": 200
+  },
+  {
+    "Name": "Single",
+    "Definition": "A function that has a single parameter",
+    "Syntax": "returnType functionName(parameter1) {}",
+    "Example": "void myName(char name[]) {}",
+    "ID": 38,
+    "Reference": 200
+  },
+  {
+    "Name": "Multiple",
+    "Definition": "A function that has two or more parameters",
+    "Syntax": "returnType functionName(parameter1, parameter2, parameter3) {}",
+    "Example": "void myValue(int a, int b, int c) {}",
+    "ID": 39,
+    "Reference": 200
+  },
+  {
+    "Name": "Abitrary",
+    "Definition": "A function could have an arbitrary number of parameter",
+    "Syntax": "return type functionName(int, ... ) {}",
+    "Example": "void value(int a, ..) {}",
+    "ID": 40,
+    "Reference": 200
+  },
+  {
+    "Name": "",
+    "Definition": "",
+    "Syntax": "",
+    "Example": "",
+    "ID": 41,
+    "Reference": 200
+  },
+  {
+    "Name": "Return Mechanism",
+    "Definition": "If you want the function to return a value, you can use a data type.",
+    "Syntax": "returnType functionName(parameter1, ...,) {return returnvalue}",
+    "Example": "return a + b",
+    "ID": 42,
+    "Reference": 200
+  }
+]
+
+
+
