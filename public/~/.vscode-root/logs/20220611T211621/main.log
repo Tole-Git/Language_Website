@@ -1,0 +1,10 @@
+[2022-06-11 21:16:21.520] [main] [info] update#setState idle
+[2022-06-11 21:16:25.769] [main] [info] Starting extension host with pid 4400 (fork() took 32 ms).
+[2022-06-11 21:16:50.592] [main] [info] Extension host with pid 4400 exited with code: 0, signal: null.
+[2022-06-11 21:16:51.523] [main] [info] update#setState checking for updates
+[2022-06-11 21:16:51.530] [main] [info] update#setState idle
+[2022-06-11 21:16:53.499] [main] [info] Starting extension host with pid 4484 (fork() took 75 ms).
+[2022-06-11 22:16:51.610] [main] [info] update#setState checking for updates
+[2022-06-11 22:16:51.616] [main] [info] update#setState idle
+[2022-06-11 22:42:09.338] [main] [info] Waiting for extension host with pid 4484 to exit.
+[2022-06-11 22:42:09.653] [main] [info] Extension host with pid 4484 exited with code: 0, signal: null.

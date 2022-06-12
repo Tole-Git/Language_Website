@@ -1,0 +1,3 @@
+[2022-06-11 22:45:39.660] [sharedprocess] [info] Starting worker process with pid 9413 (type: fileWatcher, window: 1).
+[2022-06-11 22:46:57.364] [sharedprocess] [info] Worker process with pid 9413 terminated normally (type: fileWatcher, window: 1).
+[2022-06-11 22:46:59.050] [sharedprocess] [info] Starting worker process with pid 9500 (type: fileWatcher, window: 1).

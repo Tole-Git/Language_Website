@@ -1,0 +1,20 @@
+[2022-06-11T19:16:30.297Z] Log level: Info
+[2022-06-11T19:16:30.307Z] [info] Validating found git in: git
+[2022-06-11T19:16:30.505Z] [info] Using git 2.36.1 from git
+[2022-06-11T19:16:30.673Z] > git rev-parse --show-toplevel [33ms]
+[2022-06-11T19:16:30.727Z] > git rev-parse --git-dir --git-common-dir [7ms]
+[2022-06-11T19:16:30.763Z] [info] Open repository: /home/virtuoso/Programming/UWT/DB/Language_Website
+[2022-06-11T19:16:30.928Z] > git status -z -uall [96ms]
+[2022-06-11T19:16:31.023Z] > git symbolic-ref --short HEAD [23ms]
+[2022-06-11T19:16:31.298Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mysql_branch refs/remotes/mysql_branch [172ms]
+[2022-06-11T19:16:31.390Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [52ms]
+[2022-06-11T19:16:31.396Z] > git remote --verbose [33ms]
+[2022-06-11T19:16:31.454Z] > git config --get commit.template [12ms]
+[2022-06-11T19:16:32.622Z] > git check-ignore -v -z --stdin [40ms]
+[2022-06-11T19:16:34.522Z] > git status -z -uall [18ms]
+[2022-06-11T19:16:34.567Z] > git symbolic-ref --short HEAD [14ms]
+[2022-06-11T19:16:34.611Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mysql_branch refs/remotes/mysql_branch [13ms]
+[2022-06-11T19:16:34.744Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [71ms]
+[2022-06-11T19:16:34.751Z] > git remote --verbose [25ms]
+[2022-06-11T19:16:34.821Z] > git config --get commit.template [6ms]
+[2022-06-11T19:16:50.435Z] > git status -z -uall [6ms]
